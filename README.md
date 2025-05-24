@@ -1,4 +1,4 @@
-# 📘 Guía para ejecutar `setup_ssh.sh`
+# ⚙️ Guía para ejecutar el script `setup_ssh.sh`
 
 Este documento te guiará paso a paso para ejecutar correctamente el script `setup_ssh.sh` en tu sistema utilizando **Git Bash** o la **terminal de Windows**.
 
@@ -34,6 +34,8 @@ Debes ejecutar la terminal en el directorio donde se encuentra el archivo `setup
 > Si no aparece la opción “Git Bash Here”, puede ser porque acabas de instalar Git. Para que esta opción aparezca:
 > - Reinicia tu PC.
 
+---
+
 #### 💡 Alternativa rápida si no quieres reiniciar:
 
 Puedes usar la **terminal de Windows**:
@@ -42,14 +44,19 @@ Puedes usar la **terminal de Windows**:
 2. Haz **clic derecho**.
 3. Selecciona **“Open Windows Terminal Here”**.
 
+---
+
 #### 📁 Opción B: Abrir Git Bash manualmente
 
 1. Abre el menú de aplicaciones y busca **"Git Bash"**.
-2. Una vez abierto, deberás **navegar hasta la carpeta** donde está el script usando comandos de Linux:
+2. Una vez abierto, deberás **navegar hasta la carpeta** donde está el script usando comandos como:
 
 ```bash
 cd ruta/al/directorio
 ls
+```
+
+---
 
 ### 🔹 PASO 3: Dar permisos de ejecución al script
 
@@ -57,11 +64,46 @@ Con la terminal ubicada en el directorio correcto, ejecuta el siguiente comando 
 
 ```bash
 chmod +x setup_ssh.sh
+```
+
+Presiona **ENTER**.
+
+---
 
 ### 🔹 PASO 4: Ejecutar el script
 
-Con la terminal ubicada en el directorio correcto, ejecuta el siguiente comando para lanzar el script
+Una vez otorgados los permisos, ejecuta el script con el siguiente comando:
 
 ```bash
 ./setup_ssh.sh
+```
 
+Presiona **ENTER**.
+
+---
+
+### 🔹 PASO 5: Seguir las instrucciones del script
+
+La terminal mostrará una serie de instrucciones o preguntas.  
+📌 **Sigue las indicaciones al pie de la letra** para completar la configuración correctamente.
+
+---
+
+## 🧩 Notas finales
+
+- Si encuentras algún error, asegúrate de estar en el **directorio correcto** y de que el archivo `setup_ssh.sh` tiene permisos de ejecución.
+- Puedes verificar los archivos presentes con:
+
+```bash
+ls
+```
+
+y tu ubicación actual con:
+
+```bash
+pwd
+```
+
+---
+
+> 🛟 ¿Necesitas ayuda adicional? Abre un issue o consulta con tu equipo de desarrollo.
