@@ -1,4 +1,4 @@
-# ⚙️ Guía para ejecutar el script `setup_ssh.sh`
+# ⚙️ Guía para configurar git con SSH semi-automatico
 
 Este documento te guiará paso a paso para ejecutar correctamente el script `setup_ssh.sh` en tu sistema utilizando **Git Bash** o la **terminal de Windows**.
 
