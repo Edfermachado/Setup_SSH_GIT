@@ -1,4 +1,4 @@
-# ⚙️ Guía para configurar git con SSH en windows
+# ⚙️ Configuracion automatica git +  SSH en windows
 
 Este documento te guiará paso a paso para ejecutar correctamente el script `setup_ssh.sh` en tu sistema utilizando **Git Bash** o la **terminal de Windows**.
 
